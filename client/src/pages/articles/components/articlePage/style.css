@@ -1,0 +1,11 @@
+#articleBackground {
+    background-image: url(../../../../assets/adult-beard-black-and-white-902194.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position-y: -250px;
+
+}
+
+#articleBody {
+    margin-top: 600px;
+}
