@@ -35,10 +35,16 @@ export default class HomeGraphic extends Component {
                     <button className="openbtn" onClick={this.toggleNav}>☰</button>
                     <div id="mySidepanel" className="sidepanel" style={{ display: display}}>
                         <a href="javascript:void(0)" className="closebtn" onClick={this.toggleNav}>×</a>
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Clients</a>
-                        <a href="#">Contact</a>
+                        <input id="search" className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <a href="/articles/politics">Politics</a>
+                        <a href="/articles/sports">Sports</a>
+                        <a href="/articles/business">Business</a>
+                        <a href="/articles/world">World</a>
+                        <a href="/articles/tech">Tech</a>
+                        <a href="/articles/science">Science</a>
+                        <a href="/articles/arts">Arts</a>
+                        <a href="/articles/food">Food</a>
+                        <a href="/articles/travel">Travel</a>
                     </div>
 
 

@@ -1,11 +1,67 @@
-#articleBackground {
-    background-image: url(../../../../assets/adult-beard-black-and-white-902194.jpg);
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    background-position-y: -250px;
+
+
+#articleContainer {
+    margin-top: 300px;
+    background-color: white;
+    padding: 50px;
+}
+
+#Cards {
+    font-family: 'Playfair Display', serif;
 
 }
 
-#articleBody {
-    margin-top: 600px;
+#articles {
+    box-shadow: 5px 10px 24px #888888;
+    margin: 80px;
+    padding: 30px;
+}
+
+#articleButton {
+    border-radius: 90px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    float: right;
+    background-color: #d2232a;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    border: none;
+}
+
+#dropdownMenuButton {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #d2232a;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+#dropdownButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+
+body{
+    /* The image used */
+    background-image: url(../../../../assets/adult-beard-black-and-white-902194.jpg);
+    
+    /* Set a specific height */
+    height: 500px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
 }

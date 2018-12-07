@@ -44,119 +44,15 @@
     color: white;
 }
 
-#searchFormHome {
-    display: flex;
-    justify-content: right;
-    margin-right: 0px;
-    height: 35px;
-    margin-top: 25px;
-    margin-right: 25px;
-    background-color: #d2232a;
+#search {
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    max-width: 175px;
+    margin-top: 20px;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
-    opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: white;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-    color: white;
-}
-
-
-a {
-	color: #69C;
-	text-decoration: none;
-}
-a:hover {
-	color: #F60;
-}
-
-
-
-input {
-	outline: none;
-}
-input[type=search] {
-	-webkit-appearance: textfield;
-	-webkit-box-sizing: content-box;
-	font-family: inherit;
-	font-size: 100%;
-}
-input::-webkit-search-decoration,
-input::-webkit-search-cancel-button {
-	display: none; 
-}
-
-
-input[type=search] {
-    background: #d2232a url(../../../../assets/Search\ Icon\ White-01.png) no-repeat 2px center;
-    background-size: 40px;
-	border: solid 1px #d2232a;
-	padding: 12px 12px 12px 32px;
-	width: 0px;
-	
-	-webkit-border-radius: 10em;
-	-moz-border-radius: 10em;
-	border-radius: 10em;
-	
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
-}
-input[type=search]:focus {
-	width: 130px;
-	background-color: #d2232a;
-	border-color: rgb(255, 255, 255);
-	
-	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	box-shadow: 0 0 5px rgba(109,207,246,.5);
-}
-
-
-input:-moz-placeholder {
-	color: #d2232a;
-}
-input::-webkit-input-placeholder {
-	color: #d2232a;
-}
-
-/* Demo 2 */
-#demo-2 input[type=search] {
-	width: 15px;
-	padding-left: 100px;
-	color: transparent;
-    cursor: pointer;
-    justify-content: right;
-}
-#demo-2 input[type=search]:hover {
-    background-color: #fff;
-}
-#demo-2 input[type=search]:focus {
-	width: 130px;
-	padding-left: 32px;
-	color: white;
-	background-color: #fff;
-    cursor: auto;
-    justify-content: right;
-}
-#demo-2 input:-moz-placeholder {
-	color: transparent;
-}
-#demo-2 input::-webkit-input-placeholder {
-	color: transparent;
-}
-
-#demo-2 {
-    height: 20px;
-    color: white;
-    justify-content: right;
-}
 
 #button {
     display: flex;
@@ -172,6 +68,7 @@ input::-webkit-input-placeholder {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .sidepanel a {
